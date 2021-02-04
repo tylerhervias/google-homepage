@@ -4,6 +4,21 @@
   padding: 0;
 }
 
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline;
+}
+
+.apps-icon img {
+  width: 40px;
+}
+
+
 .main {
   display: flex;
   justify-content: center;
