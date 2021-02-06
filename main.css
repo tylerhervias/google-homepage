@@ -11,6 +11,15 @@ body {
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -29,6 +38,28 @@ input {
 /* Navigation Bar */
 .apps-icon img {
   width: 40px;
+}
+
+header {
+  margin: 20px 30px;
+}
+
+header li {
+  padding: 0px 10px;
+}
+
+header .right-align {
+  font-size: 13px;
+  margin: -10px 0px;
+}
+
+header button {
+  border: none;
+  background-color: #1a73e8;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 10px 25px;
+  cursor: pointer;
 }
 
 /* Main Hero */
@@ -86,7 +117,7 @@ footer {
 }
 
 footer nav ul {
-  margin: 20px 50px;
+  margin: 20px 30px;
 }
 
 footer nav ul li {
@@ -95,9 +126,4 @@ footer nav ul li {
 
 footer a {
   color: #70757A;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
