@@ -1,1 +1,5 @@
-This project is part of The Odin Project curriculum. It is a replica of Google homepage using only HTML and CSS.
+# Google Homepage
+
+Google homepage clone built using pure HTML and CSS
+
+[Live Demo](https://tylerhervias.github.io/google-homepage)
